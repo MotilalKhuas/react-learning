@@ -3,6 +3,7 @@ import HandleEvent from './EventHandling/HandleEvent.jsx'
 import StateIntro from "./introToStates/StateIntro.jsx"
 import DigitCounter from './DigitCounter/DigitCounter.jsx'
 import Quizz from './Quizz/Quizz.jsx'
+import TodoPage from './todo/TodoPage.jsx'
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       {/* <HandleEvent/> */}
       {/* <StateIntro/> */}
       {/* <DigitCounter/> */}
-      <Quizz/>
+      {/* <Quizz/> */}
+      <TodoPage/>
     </>
   )
 }
